@@ -5,7 +5,7 @@ const router = express.Router();
 
 let records = [];
 
-//Get all students
+//Get all students bora
 router.get('/', (req, res) => {
   res.send('App is running..');
 });
